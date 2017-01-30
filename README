@@ -1,0 +1,21 @@
+Website checker
+
+Returns a HOST IS UP if a website is up
+
+Install using pip
+
+$ pip install -r requirements.txt
+
+Usage:
+
+$ python main.py <website>
+$ python main.py https://google.com
+
+This command will check if the host is up once
+
+or
+
+$ python main.py <website> -i <interval in seconds>
+$ python main.py https://google.com -i 300
+
+This command will check the website every 300 seconds
